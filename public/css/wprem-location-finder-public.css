@@ -1,0 +1,150 @@
+.wprem-locations input,
+.wprem-locations select {
+    margin-bottom: 10px
+}
+
+.wprem-locations-error {
+    color: #C00;
+    display: none
+}
+
+.wprem-locations-container .wprem-block1 {
+    overflow-y: scroll
+}
+
+.wprem-location-filter-cat {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px
+}
+
+.wprem-location-filter-title {
+    font-weight: 700
+}
+
+.wprem-location-filter-cat:hover {
+    background: #EFEFEF
+}
+
+.wprem-locations-gm-marker-container {
+	font-size:10px; float:left; position:relative; text-align:center; color:#000;
+}
+
+.wprem-locations-gm-marker-container img {
+	max-width:40px;
+}
+
+.wprem-locations-gm-marker {
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    transition: .5s ease-out;
+    cursor: pointer;
+}
+
+.wprem-locations-gm-marker:hover {
+    opacity: .6
+}
+
+.wprem-locations-pagination {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+    cursor: pointer
+}
+
+.wprem-locations-pagination:hover {
+    opacity: .5
+}
+
+.wprem-locations-pagination:first-child {
+    border-right: 1px solid #CCC
+}
+
+.number-icon {
+    text-align: center;
+    color: #000;
+    width: 30px;
+    height: 43px
+}
+
+.number-icon span {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    text-align: center;
+    width: 100%
+}
+
+#wprem-locations .wprem-locations-column {
+	padding-top:15px;
+	padding-bottom:15px;
+	cursor:pointer;
+	height:100%;
+}
+
+#wprem-locations .wprem-locations-column:hover {
+	background:#CCC;
+}
+
+.wprem-locations-single-column {
+	margin-bottom:20px; padding-bottom:10px;
+}
+
+.wprem-location-details {
+	line-height: 18px; margin-left:45px;
+}
+
+.wprem-location-details span {
+	display:block;
+}
+
+.wprem-location-details span .fax_title {
+	display:inline;
+}
+
+.wprem-location-details .city {
+	display:inline;
+}
+
+.wprem-location-details .prostate {
+	display:inline;
+}
+
+.wprem-location-details .address, .wprem-location-details .unit {
+	display:inline;
+}
+
+.wprem-location-details .tel_title, .wprem-location-details .toll_title {
+	display:inline;
+}
+
+.wprem-locations-single-column {
+	margin-bottom:20px; padding-bottom:10px;
+}
+
+.wprem-locations-gm-marker-position {
+	position:absolute; top:3px; text-align:center; width:100%; font-size:16px; left: 0;
+}
+
+.wprem-locations-gm-marker-container img {
+	max-width:40px !important;
+}
+
+/* Single locations list */
+.wprem-single-location {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wprem-single-location div {
+	display: flex;
+   flex-direction: column;
+}
+
+.wprem-single-location span {
+	display:block;
+}
